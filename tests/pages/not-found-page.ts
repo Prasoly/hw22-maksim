@@ -11,4 +11,8 @@ export default class NotFoundPage extends BasePage {
     this.title = this.page.locator('.not-found__title')
     this.description = this.page.locator('.not-found__description')
   }
+
+  async getTitle(): Promise<string> {
+    return (await this.title.innerText()).trim()
+  }
 }

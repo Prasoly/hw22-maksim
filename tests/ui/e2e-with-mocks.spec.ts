@@ -138,7 +138,6 @@ test('TL-22-4 find order success DELIVERED with mocks', async ({context}) => {
 
 test('TL-22-5 find order not found', async ({context}) => {
   const id = 9999
-
   await context.addInitScript((token) => {
     localStorage.setItem('jwt', token);
   }, jwt);

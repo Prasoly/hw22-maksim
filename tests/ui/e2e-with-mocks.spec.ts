@@ -4,7 +4,7 @@ import { OrderPage } from '../pages/order-page'
 import FoundPage from '../pages/found-page'
 import NotFoundPage from '../pages/not-found-page'
 
-const jwt = 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW5pc292YSIsImV4cCI6MTc2NTc0MTkyNCwiaWF0IjoxNzY1NzIzOTI0fQ.QCO2SRIfQj2iDlfhBkLW145h_wxJIYnpl8bm87fz-ItVxY-xBfb-PujTdI1pEpo2RZKYxH8-mkpsUVfCZBZzxQ';
+const jwt = 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW5pc292YSIsImV4cCI6MTc2NTgzNzg3NSwiaWF0IjoxNzY1ODE5ODc1fQ.Udto73R_PvE5slIARh4KVJgIk5Rb2Lr7zPD_r_tOA83wbO7CWKTOxKgGjV6ceVgAacu8g6m6I8mQ87NxKH3t8w';
 
 test('TL-22-1 signIn with mocks', async ({page}) => {
   const loginPage = new LoginPage(page)

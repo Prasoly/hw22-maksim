@@ -3,7 +3,7 @@ import { OrderPage } from './order-page'
 import { SERVICE_URL } from '../../config/env-data'
 import { BasePage } from './base-page'
 
-const jwt = 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW5pc292YSIsImV4cCI6MTc2NTc0MTkyNCwiaWF0IjoxNzY1NzIzOTI0fQ.QCO2SRIfQj2iDlfhBkLW145h_wxJIYnpl8bm87fz-ItVxY-xBfb-PujTdI1pEpo2RZKYxH8-mkpsUVfCZBZzxQ';
+const jwt = 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW5pc292YSIsImV4cCI6MTc2NTgzNzg3NSwiaWF0IjoxNzY1ODE5ODc1fQ.Udto73R_PvE5slIARh4KVJgIk5Rb2Lr7zPD_r_tOA83wbO7CWKTOxKgGjV6ceVgAacu8g6m6I8mQ87NxKH3t8w';
 
 export class LoginPage extends BasePage {
   readonly signInButton: Locator
